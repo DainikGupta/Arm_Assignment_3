@@ -5,12 +5,12 @@
 
 void printMsg(int a)
 {
-	 float a1=* ((float * ) &a);
+
 	 
 	 char Msg1[100];
 	 
 	 char *ptr;
-	sprintf(Msg1, "The Sigmoid Value is: %f, \n", a1);
+	sprintf(Msg1, "The Sigmoid Value is: %d, \n", a);
 	 
 	 ptr = Msg1 ;
    while(*ptr != '\0'){
